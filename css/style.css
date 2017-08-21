@@ -9,13 +9,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
-  line-height: 2;
   font-size: 1.25rem;
+  margin-bottom: .5rem;
 }
 
 h1 {
   font-size: 2.8rem;
-  font-weight: 400;
   line-height: 1;
 }
 
@@ -32,10 +31,6 @@ a:hover {
   color: #5590df;
 }
 
-i {
-  vertical-align: middle;
-}
-
 .skill-list i.fa-star,
 .skill-list i.fa-star-half-full {
     color: #ffde48;
@@ -44,7 +39,6 @@ i {
     animation-duration: 15s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    animation-fill-mode: both;
 }
 
 .skill-list i:nth-child(2) {
@@ -146,22 +140,22 @@ ul.no-style li {
 }
 
 @-webkit-keyframes wiggle {
- 0% {
-   -webkit-transform: rotate(0deg);
- }
- 1.1% {
-   -webkit-transform: scale(1.4) rotate(-5deg);
-   text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
- }
- 1.6% {
-   -webkit-transform: rotate(5deg);
- }
- 2.2% {
-   -webkit-transform: scale(.9) rotate(0deg);
-   text-shadow: 0 0 0 rgba(0,0,0,0);
- }
+  0% {
+   transform: rotate(0deg);
+  }
+  1.1% {
+    transform: scale(1.4) rotate(-5deg);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+  }
+  1.6% {
+    transform: rotate(5deg);
+  }
+  2.2% {
+    transform: scale(.9) rotate(0deg);
+    text-shadow: 0 0 0 rgba(0,0,0,0);
+  }
   3.3% {
-    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 }
 
