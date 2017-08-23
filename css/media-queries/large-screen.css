@@ -1,0 +1,12 @@
+div.row {
+  display: flex;
+}
+
+div.col {
+  flex: 2.5;
+}
+
+div.col-left {
+  flex: 1;
+  min-width: 250px;
+}

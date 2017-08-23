@@ -1,0 +1,23 @@
+{
+  "name": "karlwir.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlwir/karlwir.github.io.git"
+  },
+  "author": "Karl Wirfelt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karlwir/karlwir.github.io/issues"
+  },
+  "homepage": "https://github.com/karlwir/karlwir.github.io#readme",
+  "dependencies": {
+    "stylelint": "^8.0.0",
+    "stylelint-config-standard": "^17.0.0"
+  }
+}
