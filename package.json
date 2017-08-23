@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "process-images": "cp -r src/img dist/img",
+    "process-css": "postcss -o dist/css/master.css src/css/master.css",
+    "process-html": "html-minifier --remove-comments --output-dir dist --input-dir src --file-ext html",
+    "css-lint": "node node_modules/stylelint/lib/cli.js 'src/css/**/*.css'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run css-lint && npm run process-images && npm run process-css && npm run process-html"
   },
   "repository": {
     "type": "git",
@@ -16,7 +21,12 @@
     "url": "https://github.com/karlwir/karlwir.github.io/issues"
   },
   "homepage": "https://github.com/karlwir/karlwir.github.io#readme",
-  "dependencies": {
+  "devDependencies": {
+    "cssnano": "^3.10.0",
+    "html-minifier": "^3.5.3",
+    "postcss-cli": "^4.1.0",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-import": "^10.0.0",
     "stylelint": "^8.0.0",
     "stylelint-config-standard": "^17.0.0"
   }
