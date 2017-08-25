@@ -10,3 +10,7 @@ div.col-left {
   flex: 1;
   min-width: 250px;
 }
+
+div.profile-img {
+  max-height: none;
+}

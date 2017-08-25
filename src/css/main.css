@@ -16,9 +16,13 @@ div.section {
 }
 
 div.sub-section {
-  border-bottom: 1px solid var(--color-gray-light);
   padding-bottom: var(--space-extra);
   margin-bottom: var(--space-extra);
+}
+
+div.profile-img {
+  max-height: 250px;
+  overflow: hidden;
 }
 
 div.profile-img img {
@@ -62,6 +66,20 @@ ul.skill-list i:nth-child(5) {
 
 ul.skill-list i.fa-star-o {
   color: var(--color-gray-semi);
+}
+
+ul.skill-list.skill-list-compact {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -0.5rem;
+}
+
+ul.skill-list.skill-list-compact li.skill-list-item {
+  background-color: var(--color-background-secondary);
+  padding: var(--space-small);
+  border-radius: var(--border-radius-small);
+  margin: var(--space-small);
 }
 
 @keyframes fade-in {
