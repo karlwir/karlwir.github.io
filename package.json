@@ -4,14 +4,14 @@
   "description": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/karlwir/karlwir.github.io.git"
+    "url": "git+https://github.com/karlwir/personal-resume.git"
   },
   "author": "Karl Wirfelt",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/karlwir/karlwir.github.io/issues"
+    "url": "https://github.com/karlwir/personal-resume/issues"
   },
-  "homepage": "https://github.com/karlwir/karlwir.github.io#readme",
+  "homepage": "https://github.com/karlwir/personal-resume#readme",
   "main": "index.js",
   "scripts": {
     "process-images": "cp -r src/img dist",
