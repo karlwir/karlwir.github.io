@@ -1,5 +1,6 @@
 :root {
   --font-family-default: 'Raleway', sans-serif;
+  --font-size-small: 0.9rem;
   --font-size-default: 1.15rem;
   --font-size-l: 1.5rem;
   --font-size-xl: 2.8rem;

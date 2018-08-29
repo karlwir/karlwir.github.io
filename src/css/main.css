@@ -35,6 +35,12 @@ div.v-align-end {
   align-self: flex-end;
 }
 
+p.text-secondary {
+  color: #999;
+  font-style: italic;
+  font-size: var(--font-size-small);
+}
+
 ul.skill-list i.fa-star,
 ul.skill-list i.fa-star-half-full {
   color: var(--color-rating-star);
